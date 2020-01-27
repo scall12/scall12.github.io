@@ -1,1 +1,104 @@
-Hello Word
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Portfolio Site</title>
+
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="nav-item" id="home">
+        <a href="#welcome-section">Home</a>
+      </div>
+<!--       <div class="nav-item" id="about-link">
+        <a href="#about">About Me</a>
+      </div> -->
+      <div class="nav-item" id="projects-link">
+        <a href="#projects">Projects</a>
+      </div>
+      <div class="nav-item" class="contact-link">
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  
+<!-----------------Welcome section------------------>
+  <section class="welcome-section flex" id="welcome-section">
+    <div class="text">
+      <h1>Hello, I'm&nbsp;<span class="emphasis">Spencer Call</span>.</h1>
+      <h2>I'm a software, mechanical and sandwich engineer.</h2>
+      <a href="#projects" id="work-btn"><h3>Check out my work.</h3></a>
+    </div>
+  </section>
+<!--   <section class="about" id="about">
+  </section> -->
+  
+ <!-----------------Project section------------------>
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <hr>
+    <div class="projects-container">
+      <div class="project-tile">
+        <a href="#">
+          <div class="project-img">
+            <img src="https://github.com/scall12/portfolio-site/blob/master/UNADJUSTEDNONRAW_thumb_2e0.jpg"/>
+          </div>
+          <label>Autonomous Robot</label>
+          <label>Tech: C, Microcontroller</label>
+        </a>
+      </div>
+      <div class="project-tile">
+        <a href="#">
+          <div class="project-img">
+            <img />
+          </div>
+          <label></label>
+        </a>
+      </div>
+      <div class="project-tile">
+        <a href="#">
+          <div class="project-img">
+            <img />
+          </div>
+          <label></label>
+        </a>
+      </div>
+    </div>
+    <a href="https://codepen.io/scall12" target="_blank" id="btn-link">Show all<i class="fas fa-chevron-right"></i>
+    </a>
+  </section>
+  
+<!-----------------Footer section------------------>
+  <footer class="contact" id="contact">
+    <div class="contact-container">
+      <a href="https://www.linkedin.com/in/spencer-call/" target="_blank" class="ext-link">
+        <div class="contact-item" id="linkedin">
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </a>
+      <a href="https://codepen.io/scall12" target="_blank" class="ext-link">
+        <div class="contact-item" id="codepen">
+          <i class="fab fa-codepen" ></i>
+        </div>
+      </a>
+      <a href="https://github.com/scall12" target="_blank" class="ext-link">
+        <div class="contact-item" id="github">
+          <i class="fab fa-github" ></i>
+        </div>
+      </a>
+      <a href="https://www.freecodecamp.org/code-monkey" target="_blank" class="ext-link" id="profile-link">
+        <div class="contact-item" id="fcc">
+          <i class="fab fa-free-code-camp" ></i>
+        </div>
+      </a>
+    </div>
+    <p id="copyright">Spencer Call &copy2020</p>
+  </footer>
+<!--   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
